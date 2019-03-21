@@ -17,6 +17,7 @@ const int N0=31;
 const int N1=12;
 const int mIT=10;
 const double Mmax=6; //maximal delta m2 in root finder
+const int ITmax=40;
 const double interaction=1.0;
 const double cut=atan(1000); //maximum p2 where to cut off integrals
 //
@@ -508,7 +509,7 @@ double shiftfind(double *args)
 double altget_allshiftm(double shiftm,double lambda,int verbose)
 {
   
-  double Rag[6]={1,30,max(deltaPi[0]-1+0.001,0),Mmax,double(verbose),lambda};
+  double Rag[6]={1,ITmax,max(deltaPi[0]-1+0.001,0),Mmax,double(verbose),lambda};
   double newshiftm=convergeroot2(&shiftfind,Rag);
   return newshiftm;
 }
