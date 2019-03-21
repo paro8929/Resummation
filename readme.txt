@@ -28,6 +28,7 @@ Directories:
 data [output for fields for each iteration (for debugging, mostly)]
 LegendreData [stencils and weights for Gauss-Legendre quadrature]
 store [main output directory]
+DataFiles [Data text files matching published manuscript]
 
 ---------------------------------------
 
