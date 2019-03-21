@@ -5,7 +5,9 @@ R2 and R3 approximations
 by Paul Romatschke, January 2019
 
 If you are using (parts of) this code, it would be great
-if you can reference the corresponding paper(s)
+if you can reference the corresponding paper(s):
+
+https://arxiv.org/pdf/1901.05483.pdf
 
 File list:
 
