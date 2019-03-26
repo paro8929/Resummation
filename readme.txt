@@ -8,6 +8,7 @@ If you are using (parts of) this code, it would be great
 if you can reference the corresponding paper(s):
 
 https://arxiv.org/pdf/1901.05483.pdf
+https://arxiv.org/abs/1903.09661.pdf
 
 File list:
 
