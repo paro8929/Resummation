@@ -384,7 +384,7 @@ double int_field(double p0,double p1,double **field,double *xvals,double *yvals)
 double intIT(double x)
 {
   double out=0;
-  int a=0;
+  int a=1;
   while (x>ITx[a])
     a++;
   out=linear_int(ITx[a-1],ITx[a],ITy[a-1],ITy[a],x);
