@@ -624,7 +624,7 @@ double intIT(double x)
 double intJT(double x)
 {
   double out=0;
-  int a=0;
+  int a=1;
   while (x>ITx[a])
     a++;
   out=linear_int(ITx[a-1],ITx[a],JTy[a-1],JTy[a],x);
