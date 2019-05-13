@@ -2,7 +2,7 @@
 Numerical Solvers of scalar phi^4 in 1+1 dimensions
 R2 and R3 approximations
 
-by Paul Romatschke, January 2019
+by Paul Romatschke, January and May 2019 
 
 If you are using (parts of) this code, it would be great
 if you can reference the corresponding paper(s):
@@ -42,6 +42,7 @@ data [output for fields for each iteration (for debugging, mostly)]
 LegendreData [stencils and weights for Gauss-Legendre quadrature]
 store [main output directory]
 DataFiles [Data text files matching published manuscript]
+Finite-Temperature-DataFiles [Data text files matching manuscript]
 
 ---------------------------------------
 Setting parameters: Zero temperature

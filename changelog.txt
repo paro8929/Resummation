@@ -1,0 +1,1 @@
+May 2019: Replaced finite-temperature data files IT.dat and JT.dat after finding an error in the normalization of the free theory result.
